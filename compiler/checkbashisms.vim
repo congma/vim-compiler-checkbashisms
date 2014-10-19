@@ -1,7 +1,7 @@
 " Vim Compiler File for shell (sh) scripts
 " Compiler:     checkbashisms
 " Maintainer:   Cong Ma <cma@pmo.ac.cn>
-" Last Change:  FIXME
+" Last Change:  2014-10-19
 " Documentation:
 "     Before using this script, you must have the "checkbashisms" binary
 "     installed.  "checkbashisms: is part of the "devscripts" package,
