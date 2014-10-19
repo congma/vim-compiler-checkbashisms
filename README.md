@@ -31,7 +31,7 @@ let g:checkbashisms_onwrite = 1
 
 Check-on-write is disabled by default.
 
-This software is inspired by the [`Pylint plugin for Vim`][pylintvim], and
+This software is inspired by the [Pylint plugin for Vim][pylintvim], and
 incorporates ideas from the [`syntastic`][syntastic] plugin.
 
 
