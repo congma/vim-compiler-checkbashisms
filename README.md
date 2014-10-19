@@ -12,7 +12,9 @@ To automatically set the compiler for sh scripts, put the command in your
 `~/.vimrc`:
 
 ```viml
-autocmd FileType sh compiler checkbashisms
+if executable("checkbashisms")
+    autocmd FileType sh compiler checkbashisms
+endif
 ```
 
 You can use the `:Checkbashisms` command to inspect your shell script.  By
