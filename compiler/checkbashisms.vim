@@ -56,7 +56,7 @@ if exists(':Checkbashisms') != 2
     command Checkbashisms :call Checkbashisms(0)
 endif
 
-CompilerSet makeprg=checkbashisms\ -fnp\ '%'
+CompilerSet makeprg=checkbashisms\ -fnpx\ '%'
 CompilerSet errorformat=%Wpossible\ bashism\ in\ %f\ line\ %l\ (%m):,%C%.%#,%Z.%#
 
 " The following are adapted from the pylint compiler plugin
